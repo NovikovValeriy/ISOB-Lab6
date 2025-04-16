@@ -13,6 +13,8 @@ class AuthenticationViewModel: ObservableObject {
     @Published var passwordText: String = ""
     @Published var secureMode: Bool = false
     
+    @Published var isPasswordShown: Bool = false
+    
     @Published var showingAlert = false
     @Published var alertTitle = ""
     @Published var alertText = ""
